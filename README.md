@@ -1,16 +1,37 @@
-# React + Vite
+☁️ CLOUDY
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CLOUDY is a modern weather web app built with React that delivers real-time weather updates in a clean, visually engaging interface. It combines accurate data with smooth animations and a dynamic background to create an immersive weather experience.
 
-Currently, two official plugins are available:
+The app allows users to search any city worldwide and view current conditions along with a detailed 5-day forecast. Animated weather particles, interactive charts, and responsive design make the interface both informative and visually appealing.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+CLOUDY is designed as a learning project and portfolio showcase, demonstrating API integration, modern UI design, and advanced React component architecture.
 
-## React Compiler
+🌦 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🌍 Search weather by city worldwide
 
-## Expanding the ESLint configuration
+📊 Real-time weather data using OpenWeatherMap API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📅 5-day forecast with detailed insights
+
+🎥 Dynamic video background
+
+✨ Animated weather particle effects
+
+📈 Interactive temperature chart
+
+🌗 Dark & Light theme toggle
+
+📱 Fully responsive design
+
+🛠 Tech Stack
+
+React.js
+
+Vite
+
+OpenWeatherMap API
+
+HTML5 & CSS3
+
+JavaScript (ES6+)
