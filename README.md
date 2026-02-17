@@ -7,31 +7,18 @@ The app allows users to search any city worldwide and view current conditions al
 CLOUDY is designed as a learning project and portfolio showcase, demonstrating API integration, modern UI design, and advanced React component architecture.
 
 🌦 Features
-
 🌍 Search weather by city worldwide
-
 📊 Real-time weather data using OpenWeatherMap API
-
 📅 5-day forecast with detailed insights
-
 🎥 Dynamic video background
-
 ✨ Animated weather particle effects
-
 📈 Interactive temperature chart
-
 🌗 Dark & Light theme toggle
-
 📱 Fully responsive design
 
 🛠 Tech Stack
-
 React.js
-
 Vite
-
 OpenWeatherMap API
-
 HTML5 & CSS3
-
 JavaScript (ES6+)
