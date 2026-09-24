@@ -1,7 +1,7 @@
 # Cloudy — Weather App
-demo link -https://cloudy-1hhb.onrender.com/
-A beautiful weather app built with React, featuring live weather data, hourly temperature charts, a 5-day forecast with expandable details, city autocomplete, dark/light theme toggle, and a dramatic cloud background.
 
+A beautiful weather app built with React, featuring live weather data, hourly temperature charts, a 5-day forecast with expandable details, city autocomplete, dark/light theme toggle, and a dramatic cloud background.
+demo link -https://cloudy-1hhb.onrender.com/
 ## Features
 
 - **Live weather** from OpenWeatherMap API
