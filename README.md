@@ -68,7 +68,7 @@ Output goes to `dist/`. Serve it with any static host (Vercel, Netlify, GitHub P
 
 ## Tech Stack
 
-- **React 18** with hooks
+- **React ** with hooks
 - **Vite** for fast dev + builds
 - **OpenWeatherMap** for weather + geocoding data
 - Pure CSS-in-JS (no external UI libraries)
