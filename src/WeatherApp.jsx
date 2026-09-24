@@ -1,6 +1,6 @@
 import { useState, useCallback, useEffect, useRef } from "react";
 
-const API_KEY = "b89a4fe478d6b40c04533b704844c7e4";
+const API_KEY = import.meta.env.VITE_OWM_API_KEY || "YOUR_API_KEY_HERE";
 const BASE_URL = "https://api.openweathermap.org/data/2.5";
 const GEO_URL = "https://api.openweathermap.org/geo/1.0";
 
