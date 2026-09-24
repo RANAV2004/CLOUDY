@@ -899,6 +899,16 @@ export default function WeatherApp() {
     }
   }, [tempUnit, isDemoMode]);
 
+  // Opened from Bookworm (or any link) as ?city=Ujjain,IN → load that city straight away
+  useEffect(() => {
+    const cityFromUrl = new URLSearchParams(window.location.search).get("city");
+    if (cityFromUrl) {
+      setSearchInput(cityFromUrl.split(",")[0]);
+      loadWeather(cityFromUrl);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   const handleSearchSubmit = (e) => {
     e.preventDefault();
     if (highlightedIdx >= 0 && suggestions[highlightedIdx]) {
